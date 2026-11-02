@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Makanan</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff3e0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d84315;
+    }
+
+    p {
+      text-align: center;
+      color: #555555;
+    }
+
+    .gambar-utama {
+      display: block;
+      margin: 20px auto;
+      width: 300px;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .menu {
+      background-color: white;
+      width: 350px;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin: 15px auto;
+      padding: 15px;
+      border: 2px solid #ff8a65;
+      border-radius: 10px;
+    }
+
+    .menu h2 {
+      color: #bf360c;
+      margin-top: 0;
+    }
+
+    .menu p {
+      text-align: left;
+    }
+
+    .harga {
+      font-weight: bold;
+      color: green;
+    }
+
+    .kotak {
+      background-color: white;
+      width: 350px;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin: 15px auto;
+      padding: 15px;
+      border: 2px solid #ffb74d;
+      border-radius: 10px;
+    }
+
+    .kotak h2 {
+      color: #bf360c;
+      margin-top: 0;
+    }
+
+    ul, ol {
+      color: #555555;
+      line-height: 1.6;
+    }
+
+    dt {
+      font-weight: bold;
+      color: #bf360c;
+      margin-top: 10px;
+    }
+
+    dd {
+      margin-left: 20px;
+      color: #555555;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Menu Makanan Warung Sederhana</h1>
+
+  <p>Selamat datang! Berikut daftar menu makanan favorit kami yang lezat dan harganya terjangkau.</p>
+
+  <img class="gambar-utama" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMjAwIj4KPHJlY3Qgd2lkdGg9IjMwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNmZmUwYjIiLz4KPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjE1MCIgcng9IjExNSIgcnk9IjI4IiBmaWxsPSIjYmYzNjBjIiBvcGFjaXR5PSIuMjUiLz4KPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjEzMCIgcng9IjExMCIgcnk9IjQwIiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9IiNmZjhhNjUiIHN0cm9rZS13aWR0aD0iNCIvPgo8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iMTI1IiByeD0iODAiIHJ5PSIyNiIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSIjZmZjY2JjIiBzdHJva2Utd2lkdGg9IjIiLz4KPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjExNSIgcng9IjYwIiByeT0iMjIiIGZpbGw9IiNmOWE4MjUiLz4KPGNpcmNsZSBjeD0iMTI1IiBjeT0iMTA4IiByPSI2IiBmaWxsPSIjOGQ2ZTYzIi8+PGNpcmNsZSBjeD0iMTUwIiBjeT0iMTAwIiByPSI2IiBmaWxsPSIjOGQ2ZTYzIi8+CjxjaXJjbGUgY3g9IjE3MiIgY3k9IjExMCIgcj0iNiIgZmlsbD0iIzhkNmU2MyIvPjxjaXJjbGUgY3g9IjE0MCIgY3k9IjEyMCIgcj0iNSIgZmlsbD0iIzQzYTA0NyIvPgo8Y2lyY2xlIGN4PSIxNjUiIGN5PSIxMjIiIHI9IjUiIGZpbGw9IiM0M2EwNDciLz48Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMjAiIHI9IjQiIGZpbGw9IiNlNTM5MzUiLz4KPGVsbGlwc2UgY3g9IjE1MCIgY3k9Ijg4IiByeD0iMjIiIHJ5PSIxNCIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjE1MCIgY3k9Ijg4IiByPSI3IiBmaWxsPSIjZmZiMzAwIi8+CjxwYXRoIGQ9Ik0xMzAgNzBxLTgtMTQgMC0yNE0xNTAgNjZxLTgtMTQgMC0yNE0xNzAgNzBxLTgtMTQgMC0yNCIgc3Ryb2tlPSIjYmRiZGJkIiBzdHJva2Utd2lkdGg9IjQiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8dGV4dCB4PSIxNTAiIHk9IjE5MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjYmYzNjBjIj5OYXNpIEdvcmVuZzwvdGV4dD4KPC9zdmc+Cg==" alt="Gambar nasi goreng">
+
+  <div class="menu">
+    <h2>Nasi Goreng</h2>
+    <p>Nasi goreng dengan telur, ayam, dan sayuran.</p>
+    <p class="harga">Rp 15.000</p>
+  </div>
+
+  <div class="menu">
+    <h2>Mie Ayam</h2>
+    <p>Mie dengan potongan ayam, sawi, dan kuah gurih.</p>
+    <p class="harga">Rp 12.000</p>
+  </div>
+
+  <div class="menu">
+    <h2>Sate Ayam</h2>
+    <p>Sepuluh tusuk sate ayam dengan bumbu kacang.</p>
+    <p class="harga">Rp 20.000</p>
+  </div>
+
+  <div class="menu">
+    <h2>Es Teh Manis</h2>
+    <p>Minuman teh dingin yang menyegarkan.</p>
+    <p class="harga">Rp 5.000</p>
+  </div>
+
+  <div class="kotak">
+    <h2>Fasilitas Warung</h2>
+    <!-- ul = Unordered List (daftar tanpa urutan, pakai bullet) -->
+    <ul>
+      <li>Tempat duduk nyaman</li>
+      <li>WiFi gratis</li>
+      <li>Toilet bersih</li>
+      <li>Tempat parkir luas</li>
+    </ul>
+  </div>
+
+  <div class="kotak">
+    <h2>Cara Memesan</h2>
+    <!-- ol = Ordered List (daftar berurutan, pakai angka) -->
+    <ol>
+      <li>Pilih menu yang diinginkan</li>
+      <li>Sebutkan pesanan ke kasir</li>
+      <li>Lakukan pembayaran</li>
+      <li>Tunggu pesanan diantar ke meja</li>
+    </ol>
+  </div>
+
+  <div class="kotak">
+    <h2>Keterangan Menu</h2>
+    <!-- dl = Definition List (daftar definisi), dt = istilah, dd = penjelasan -->
+    <dl>
+      <dt>Nasi Goreng</dt>
+      <dd>Nasi yang digoreng dengan bumbu, telur, dan ayam.</dd>
+
+      <dt>Mie Ayam</dt>
+      <dd>Mie rebus dengan topping ayam dan kuah kaldu.</dd>
+
+      <dt>Sate Ayam</dt>
+      <dd>Daging ayam tusuk yang dibakar dengan bumbu kacang.</dd>
+
+      <dt>Es Teh Manis</dt>
+      <dd>Minuman teh dengan gula dan es batu.</dd>
+    </dl>
+  </div>
+
+</body>
+</html>
